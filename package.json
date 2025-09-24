@@ -1,0 +1,24 @@
+{
+    "name": "whatsapp-buttler",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "Lightweight WhatsApp bot using Baileys, SQLite, and Express",
+    "dependencies": {
+        "@adiwajshing/baileys": "^5.0.0",
+        "axios": "^1.12.2",
+        "chrono-node": "^2.9.0",
+        "dotenv": "^17.2.2",
+        "express": "^5.1.0",
+        "node-cron": "^4.2.1",
+        "openai": "^5.23.0",
+        "pino": "^9.11.0",
+        "sqlite3": "^5.1.7"
+    }
+}
